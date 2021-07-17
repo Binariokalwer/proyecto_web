@@ -1,7 +1,7 @@
 .estilo_boton{
   position: absolute;
   left: 585px;
-  top: 443px;
+  top: 435px;
 color: #ff0000 !important;
   font-size: 20px;
   font-weight: 500;
@@ -11,7 +11,7 @@ color: #ff0000 !important;
   border-color: #8c00ff;
   transition: all 1s ease;
   font-size: 30px;
-  font-family: fantasy;
+  font-family:'Yusei Magic', sans-serif;
   
 }
 .centrado{
