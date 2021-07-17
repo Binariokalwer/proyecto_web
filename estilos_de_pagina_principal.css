@@ -1,0 +1,167 @@
+.estilo_boton{
+  position: absolute;
+  left: 585px;
+  top: 443px;
+color: #ff0000 !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0, 0, 0, 0.24);
+  border: 2px solid;
+  border-color: #8c00ff;
+  transition: all 1s ease;
+  font-size: 30px;
+  font-family: fantasy;
+  
+}
+.centrado{
+    text-align: center;
+font-family: fantasy;
+color: rgb(255, 217, 0);
+font-size: 60px;
+
+}
+#leviamont{
+  position: absolute;
+  width: 1000px;
+  height: 1000;
+  left: auto;
+  top: 90px;
+ 
+
+    
+}
+.rectangulo {
+  width: 1353.49px; 
+  height: 100px; 
+  border: 3px solid #555;
+  background: #00ff80;
+  position:absolute;
+  top: -3px;
+  left: -10px;
+  
+}
+.texto-encima{
+  color:white;
+  -webkit-text-stroke: 2px black;
+  position: absolute;
+    top: 10px;
+    left: 50px;
+    right: 0; 
+    font-family:Arial, Helvetica, sans-serif;   
+}
+.rectangulo2 {
+  width: 1353.49px; 
+  height: 100px; 
+  border: 3px solid #555;
+  background: #000000;
+  position:absolute;
+  top: 900px;
+  left: -10px;
+  bottom: 50px;
+  
+}
+.icon-contacto-mail{
+  background: url(https://img.icons8.com/color/48/000000/gmail--v2.png) no-repeat;
+  background-position: center;
+  width: 83px;
+  height: 60px;
+  border: black;
+  position: absolute;
+  top: 920px;
+  left: 900px;
+
+}
+.icon-contacto-llamada{
+  background: url(https://img.icons8.com/bubbles/50/000000/phone-ringing.png) no-repeat;
+  background-position: center;
+  width: 83px;
+  height: 60px;
+  border: black;
+  position: absolute;
+  top: 920px;
+  left: 960px;
+
+}
+.numero-tel{
+  color: azure;
+  position: absolute;
+  top: 22px;
+  left: 70px;
+  width: 130px;
+}
+.texto-datos-contacto{
+  color: azure;
+  font-size: 30px;
+  position: absolute;
+  top: 935px;
+  left: 70px;
+  width: 300px;
+}
+.video1{
+  border-top: coral;
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  width: 500px;
+  height: 290px;
+  
+}
+.video1-introdución{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 600px;
+  left: 80px;
+  width: 400px;
+}
+.video2{
+  position: absolute;
+  top: 300px;
+  left: 800px;
+  width: 500px;
+  height: 290px;
+  
+}
+.video1-introdución2{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 600px;
+  left: 850px;
+  width: 400px;
+}
+.logo-pagina-2{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 145px;
+  height: 70px;
+}
+.logo-primera-pagina{
+  position: absolute;
+  left: 400px;
+}
+
+.fondo-pagina-1{
+  background-image: url(/fondo5.jpg);
+  width: 720px;
+  
+}
+.robots-estilo{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 900px;
+  margin: auto;
+  max-width: 50%;
+  max-height: 50%;
+}
+.robots-estilo2{
+  position: absolute;
+  top: 160px;
+  left: 50px;
+  margin: auto;
+  max-width: 50%;
+  max-height: 50%;
+}
