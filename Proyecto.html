@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="estilos_de_pagina_principal.css">
-<html lang="en">
-<head>
-  <div class="rectangulo"></div>
-  
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_de_pagina_principal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="icon" href="/ITMACLIF/Logo/logo_small_icon_only.png" sizes="32x32" type="image/png">
-    <title>Proyectos</title>
-    <h1 class="centrado"><div class="texto-encima">Proyectos ITMACLIF</div></h1>
-</head>
-<body background="/ITMACLIF/fondo_pagina_2.png">
-  <div class="rectangulo2"></div>
-  <a href="mailto:binariokalwer@gmail.com?subject=Servicio%20Tecnico&body=Hola%20Escribe%20tu%20mensaje%20aqui"><button class="icon-contacto-mail"></button></a>
-  <a ><button class="icon-contacto-llamada"><i class="numero-tel">Numero por colocar</i></button></a>
-  <a class="texto-datos-contacto">Datos de contacto</a>
-  <iframe class="video1" src="https://www.youtube.com/embed/6xu_MrSxZaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <p class="video1-introdución">Proyecto para mejorar el sistema de transporte de materiales pesados mediante levitación electromagnetica</p>
-  
-  <p class="video1-introdución2">Proyecto Ordenadores Cuaánticos ¿que son? ¿para que sirven? ¿son el futuro de la tecnología?</p>
-  <img class="logo-pagina-2" src="/logo_large.png">
+    <script src="/practica1.js"></script>
+    <title id="titulo">Proyectos</title>
+  </head>
+  <body class="fondo_pagina2" onload="idioma()">
+    <div class="entry-content">
+      <div class="rectangulo2">
+        <button title="Enviar correo al autor" onclick="location.href='mailto:binariokalwer@gmail.com?subject=Servicio%20Tecnico&body=Hola%20Escribe%20tu%20mensaje%20aqui'" id="mail"></button>
+        <button class="icon-contacto-llamada"><i class="numero-tel" id="info-num">Numero por colocar</i></button>
+        <a class="texto-datos-contacto" id="contacto">Datos de contacto</a>
+      </div>
+      <div class="rectangulo">
+        <br class="sin-color">
+        <br class="sin-color">
+        <h1 class="texto-encima" id="tituloh1">PROYECTOS ITMACLIF</h1>
+        <img alt="Logo ITMACLIF" class="logo-pagina-2" src="/logo_large.png">
+      </div>
+      <button id="español-latino" onclick="españollatino()"></button>
+      <button id="ingles" onclick="ingles()"></button>
+      <div id="total-video1">
+        <div id="contenedorvideo1"></div>
+        <iframe class="video1" src="https://www.youtube.com/embed/6xu_MrSxZaY" title="Video leviamont"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p title="Para entenderlo mejor, vea el video" class="video1-introdución" id="leviamont-parrafo1">Proyecto para mejorar el sistema de transporte de materiales pesados mediante levitación electromagnética</p>
+      </div>
+      <div id="total-video2">
+        <div id="contenedorvideo2"></div>
+        <iframe class="video2" src="https://www.dropbox.com/s/31ybw541kvocd0e/Ceukos%202021.mp4?raw=1" title="Video Ceukos"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p title="Para entenderlo mejor, vea el video" class="video1-introdución2" id="ceukos1">Proyecto Ordenadores Cuánticos ¿qué son? ¿para que sirven? ¿son el futuro de la tecnología?</p>
+      </div>
+      
+      </html>
 </body>
-
-</html>

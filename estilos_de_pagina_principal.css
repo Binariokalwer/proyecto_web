@@ -1,24 +1,46 @@
-.estilo_boton{
-  position: absolute;
-  left: 585px;
-  top: 435px;
-color: #ff0000 !important;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0.5em 1.2em;
+*{
+  /* overflow:hidden; */
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+} 
+
+
+#saludo{
+  position: relative;
+  left: 3%;
+  top: 15%;
+  color: #ffffff !important;  
+  font-weight: 50%; 
+  /* padding: 0.5% 1.2%; */
   background: rgba(0, 0, 0, 0.24);
-  border: 2px solid;
+  border: 2% solid;
   border-color: #8c00ff;
-  transition: all 1s ease;
-  font-size: 30px;
+  transition: all 0.5s ease;
+  font-size: 3vw;
   font-family:'Yusei Magic', sans-serif;
+  border-radius: 10%;
+  width: auto;
+  height: auto;
+
+}
+.fondo_pagina2{
+  /* background-image: url("/ITMACLIF/fondo_pagina_2.png"); */
+  background-image: url(https://source.unsplash.com/random/1800x720/?galaxy,space);
+  background-position: center center;
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
   
 }
-.centrado{
-    text-align: center;
-font-family: fantasy;
-color: rgb(255, 217, 0);
-font-size: 60px;
+#saludo:hover{
+  background-color: rgb(0, 0, 0);
+  border-color: crimson;
+  
+}
+.sin-color{
+background-color:unset;
 
 }
 #leviamont{
@@ -32,136 +54,377 @@ font-size: 60px;
     
 }
 .rectangulo {
-  width: 1353.49px; 
-  height: 100px; 
-  border: 3px solid #555;
-  background: #00ff80;
-  position:absolute;
-  top: -3px;
-  left: -10px;
+  width: 100%; 
+  height: 18%; 
+  background-color: white;  
+  position:relative;
+  margin: 0%;
+  bottom: 16%;
+  left: 0px;
   
 }
 .texto-encima{
-  color:white;
-  -webkit-text-stroke: 2px black;
-  position: absolute;
-    top: 10px;
-    left: 50px;
-    right: 0; 
-    font-family:Arial, Helvetica, sans-serif;   
+  color:rgb(0, 0, 0);
+    text-align: center;
+    
+    font-family:'Anton', sans-serif;
+       
+    
 }
 .rectangulo2 {
-  width: 1353.49px; 
-  height: 100px; 
-  border: 3px solid #555;
+  width: 100%; 
+  height: 15%; 
+  border: none;
   background: #000000;
-  position:absolute;
-  top: 900px;
-  left: -10px;
-  bottom: 50px;
+  position:relative;
+  top: 100%;
+  left: 0%;
+  
   
 }
-.icon-contacto-mail{
+#mail{
   background: url(https://img.icons8.com/color/48/000000/gmail--v2.png) no-repeat;
   background-position: center;
-  width: 83px;
-  height: 60px;
-  border: black;
+  background-size: cover;
+  width: 4%;
+  height: 50%;
+  border:none;
   position: absolute;
-  top: 920px;
-  left: 900px;
+  top: 25%;
+  left: 70%;
+  
 
 }
+#mail:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.473);
+  border-radius: 50%;
+}
 .icon-contacto-llamada{
-  background: url(https://img.icons8.com/bubbles/50/000000/phone-ringing.png) no-repeat;
-  background-position: center;
-  width: 83px;
-  height: 60px;
-  border: black;
+  background: url(https://img.icons8.com/bubbles/50/000000/phone-ringing.png)no-repeat;
+  background-size: cover;
+  width: 4%;
+  height: 50%;
+  border: none;
   position: absolute;
-  top: 920px;
-  left: 960px;
-
+  bottom: 24%;
+  left: 75%;
+  
+}
+.icon-contacto-llamada:hover{
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+  cursor: pointer;
+  border-width: 3px;
+  background-color: rgb(255, 251, 0);
+  border-radius: 100%;
 }
 .numero-tel{
   color: azure;
-  position: absolute;
-  top: 22px;
-  left: 70px;
-  width: 130px;
+  position: relative;
+  top: 2%;
+  left: 70%;
+  width: 13%;
+  height: auto;
 }
 .texto-datos-contacto{
   color: azure;
-  font-size: 30px;
-  position: absolute;
-  top: 935px;
+  font-size: 150%;
+  position: relative;
+  top: 50%;
   left: 70px;
-  width: 300px;
+  width: 30%;
+  height: auto;
 }
 .video1{
-  border-top: coral;
-  position: absolute;
-  top: 300px;
-  left: 30px;
-  width: 500px;
-  height: 290px;
-  
+  position: relative;
+  top: 10%;
+  left: 11%;
+  width: 70%;
+  height: 43.7%;
+  border-bottom-width: 5px;
+  border-top-width: 10px;
+  border-left-width:10px;
+  border-right-width:10px ;
+  border-top-color: rgb(0, 204, 255);
+  border-bottom-color: rgb(0, 204, 255);
+  border-left-color:white;
+  border-right-color:white;
+  box-shadow: rgb(136, 255, 0) 10px 10px 10px;
+  transition: all 0.5s ease;
+  border-radius: 0%;
+  animation-name: bordes-de-videos;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes bordes-de-videos {
+  0%{
+    border-top-color: rgb(0, 204, 255);
+  border-bottom-color: rgb(0, 204, 255);
+  border-left-color:rgb(255, 255, 255);
+  border-right-color:rgb(255, 255, 255);
+  box-shadow: rgb(136, 255, 0) 10px 10px 10px;
+  }
+  25%{
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color:rgb(0, 204, 255);
+    border-right-color:rgb(255, 251, 0);
+    box-shadow: rgb(238, 255, 0) 10px 10px 10px;
+  }
+  50%{
+    border-top-color: rgb(255, 0, 0);
+    border-bottom-color: rgb(0, 204, 255);
+    border-left-color:rgb(255, 255, 255);
+    border-right-color:rgb(255, 255, 255);
+    box-shadow: rgb(4, 0, 255) 10px 10px 10px;
+  }
+  75%{
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color:rgb(0, 204, 255);
+    border-right-color:rgb(0, 204, 255);
+    box-shadow: rgb(174, 0, 255)10px 10px 10px;
+  }
+  100%{
+    border-top-color: rgb(0, 204, 255);
+    border-bottom-color: rgb(0, 204, 255);
+    border-left-color:rgb(255, 255, 255);
+    border-right-color:rgb(255, 255, 255);
+    box-shadow: rgb(136, 255, 0) 10px 10px 10px;
+  }
 }
 .video1-introdución{
-  font-size: 20px;
+  font-size: 100%;
   color: white;
-  position: absolute;
-  top: 600px;
-  left: 80px;
-  width: 400px;
+  position: relative;
+  top: 20%;
+  left: 17%;
+  width: 60%;
+  height: auto; 
+}
+#total-video1{
+  position: relative;
+  bottom: 80%;
+  left: 10%;
+  width: 30%;
+  height: 60%;
+  border-radius: 10%;
+}
+#contenedorvideo1{
+  background-color:rgba(114, 114, 114, 0.541);
+  position: relative;
+  top:100%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  transition: all 5s ease;
+}
+#contenedorvideo1:hover{
+  transition: all 5s ease;
+  background-color: black;
+  filter: blur(10px);
+  transform: rotate(180deg); 
+}
+#total-video2{
+  position: relative;
+  bottom: 80%;
+  left: 60%;
+  width: 30%;
+  height: 60%;
+  border-radius: 10%;
+}
+#contenedorvideo2{
+  background-color: rgba(114, 114, 114, 0.541);
+  position: relative;
+  top:0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  transition: all 5s ease;
+}
+#contenedorvideo2:hover{
+  transition: all 5s ease;
+  filter: blur(10px);
+  background-color: black;
+  transform: rotate(180deg);
+}
+#barra-progreso{
+  position: fixed;
+  top: 0%;
+  width: 10%;
+  height: 5%;
 }
 .video2{
-  position: absolute;
-  top: 300px;
-  left: 800px;
-  width: 500px;
-  height: 290px;
-  
+  position: relative;
+  bottom: 90%;
+  left: 11%;
+  width: 70%;
+  height: 43.7%;
+  border-bottom-width: 5px;
+  border-top-width: 10px;
+  border-left-width:10px;
+  border-right-width:10px ;
+  border-top-color: rgb(0, 204, 255);
+  border-bottom-color: rgb(0, 204, 255);
+  border-left-color:white;
+  border-right-color:white;
+  box-shadow: rgb(136, 255, 0) 10px 10px 10px;
+  transition: all 0.5s ease;
+  filter: blur(0px) !important;
+  animation-name: bordes-de-videos;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
+.video2:hover{
+  -webkit-transform:scale(1.2);transform:scale(1.2);
+  transition: all 0.5s ease;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.video1:hover{
+  -webkit-transform:scale(1.1);transform:scale(1.1);
+  transition: all 0.5s ease;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
 .video1-introdución2{
-  font-size: 20px;
+  font-size: 100%;
   color: white;
-  position: absolute;
-  top: 600px;
-  left: 850px;
-  width: 400px;
+  position: relative;
+  bottom: 80%;
+  left: 24%;
+  width: 60%;
+  height: auto;
+}
+#español-latino{
+  background-image: url(https://img.icons8.com/color/48/000000/mexico-circular.png);
+  width: 4%;
+  height: 8%;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+  left: 1%;
+}
+#español-latino:hover{
+  -webkit-transform: scale(1.1);transform: scale(1.1);
+  cursor: pointer;
+}
+#ingles{
+  background-image: url(https://img.icons8.com/bubbles/50/000000/usa.png);
+  width: 4%;
+  height: 8%;
+  position: relative;
+  top: 10%;
+  right: 3.3%;
+  background-position: center;
+  border-radius: 50%;
+}
+#ingles:hover{
+  -webkit-transform: scale(1.1);transform: scale(1.1);
+  cursor: pointer;  
 }
 .logo-pagina-2{
-  position: absolute;
-  top: 5px;
+  position: relative;
+  bottom: 120%;
   left: 10px;
-  width: 145px;
-  height: 70px;
+  width: 10%;
+  height: auto;
 }
 .logo-primera-pagina{
-  position: absolute;
-  left: 400px;
+  position: relative;
+  left: 30%;
+  width: 40%;
+  height: auto;
+  
 }
 
 .fondo-pagina-1{
-  background-image: url(/fondo5.jpg);
-  width: 720px;
   
+  /* background-image: url(/fondo5.jpg); */
+  background-image: url(https://source.unsplash.com/random/1800x720/?abstract);
+  background-size: cover;
+  width: 100%;
+
 }
 .robots-estilo{
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 900px;
+  top: 25%;
+  left: 60%;
   margin: auto;
-  max-width: 50%;
-  max-height: 50%;
+  width: 35%;
+  height: auto;
 }
 .robots-estilo2{
   position: absolute;
-  top: 160px;
-  left: 50px;
-  margin: auto;
-  max-width: 50%;
-  max-height: 50%;
+  top: 25%;
+  left: 5%;
+  width: 35%;
+  height: auto;
+
+} 
+
+/* responsive Para 960px */  
+@media only screen and (max-width: 980px) and (min-width: 821px) {  
+  #saludo{
+    top: 50%;
+    left: -5%;
+    font-size: 330%;
+  }
+}  
+  
+/* responsive Para 800px */  
+@media only screen and (max-width: 820px) and (min-width: 621px) {  
+  #saludo{
+    top: 55%;
+    left: -5%;
+    font-size: 330%;
+  }
+}  
+  
+/* responsive Para 600px */  
+@media only screen and (max-width: 620px) and (min-width: 501px) {  
+  #saludo{
+    top: 50%;
+    left: -5%;
+    font-size: 250%;
+  }
+}  
+  
+/* responsive Para 480px */  
+@media only screen and (max-width: 500px) and (min-width: 341px) {  
+  #saludo{
+    top: 50%;
+    left: -10%;
+    font-size: 200%;
+  }
+}  
+  
+/* responsive Para 320px */  
+@media only screen and (max-width: 340px) and (min-width: 5px)  {  
+  #saludo{
+    top: 50%;
+    left: -15%;
+    font-size: 150%;
+  }
+}
+#botonprueba{
+  background-color:#e84a36;
+  color: white;
+  border-color: #a52313;
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+}
+#botonprueba:hover{
+  background-color: #a52313;
+  cursor: pointer;
+  -webkit-transform: scale(1.1);transform: scale(1.1);
 }
