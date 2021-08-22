@@ -26,13 +26,12 @@
 
 }
 .fondo_pagina2{
-  /* background-image: url("/ITMACLIF/fondo_pagina_2.png"); */
   background-image: url(https://source.unsplash.com/random/1800x720/?galaxy,space);
   background-position: center center;
   background-attachment:fixed;
   background-size:cover;
   background-repeat: no-repeat;
-  
+  transition: all 10s ease;
 }
 #saludo:hover{
   background-color: rgb(0, 0, 0);
@@ -206,11 +205,13 @@ background-color:unset;
 }
 #total-video1{
   position: relative;
-  bottom: 80%;
-  left: 10%;
+  bottom: 73%;
+  left: 35%;
   width: 30%;
   height: 60%;
   border-radius: 10%;
+  animation-name: none;
+  animation-duration: 5s;
 }
 #contenedorvideo1{
   background-color:rgba(114, 114, 114, 0.541);
@@ -228,63 +229,12 @@ background-color:unset;
   filter: blur(10px);
   transform: rotate(180deg); 
 }
-#total-video2{
-  position: relative;
-  bottom: 80%;
-  left: 60%;
-  width: 30%;
-  height: 60%;
-  border-radius: 10%;
-}
-#contenedorvideo2{
-  background-color: rgba(114, 114, 114, 0.541);
-  position: relative;
-  top:0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  border-radius: 10%;
-  transition: all 5s ease;
-}
-#contenedorvideo2:hover{
-  transition: all 5s ease;
-  filter: blur(10px);
-  background-color: black;
-  transform: rotate(180deg);
-}
+
 #barra-progreso{
   position: fixed;
   top: 0%;
   width: 10%;
   height: 5%;
-}
-.video2{
-  position: relative;
-  bottom: 90%;
-  left: 11%;
-  width: 70%;
-  height: 43.7%;
-  border-bottom-width: 5px;
-  border-top-width: 10px;
-  border-left-width:10px;
-  border-right-width:10px ;
-  border-top-color: rgb(0, 204, 255);
-  border-bottom-color: rgb(0, 204, 255);
-  border-left-color:white;
-  border-right-color:white;
-  box-shadow: rgb(136, 255, 0) 10px 10px 10px;
-  transition: all 0.5s ease;
-  filter: blur(0px) !important;
-  animation-name: bordes-de-videos;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-.video2:hover{
-  -webkit-transform:scale(1.2);transform:scale(1.2);
-  transition: all 0.5s ease;
-  border-radius: 10%;
-  cursor: pointer;
 }
 .video1:hover{
   -webkit-transform:scale(1.1);transform:scale(1.1);
@@ -427,4 +377,128 @@ background-color:unset;
   background-color: #a52313;
   cursor: pointer;
   -webkit-transform: scale(1.1);transform: scale(1.1);
+}
+/* .retroceder{
+  position: relative;
+  bottom: 20%;
+  left: 15%;
+  border-radius: 50%;
+  width: 5%;
+  height: 10%;
+  background-color: antiquewhite;
+  font-size: 100%;
+  animation-name: entrada_botones;
+  animation-duration: 5s;
+}
+.retroceder:hover{
+  background-color: #8c00ff;
+  cursor: pointer;
+  -webkit-transform: scale(1.2); transform: scale(1.2);
+  font-size: 200%;
+} */
+.avanzar{
+  position: relative;
+  bottom: 20%;
+  left: 75%;
+  border-radius: 50%;
+  width: 5%;
+  height: 10%;
+  color: white;
+  background-color: rgb(255, 145, 0);
+  font-size: 100%;
+  animation-name: entrada_botones;
+  animation-duration: 5s;
+}
+.avanzar:hover{
+  background-color: #8c00ff;
+  cursor: pointer;
+  -webkit-transform: scale(1.2); transform: scale(1.2);
+  font-size: 200%;
+}
+.avanzar:focus{
+  animation-name: animación_de_hover_botones;
+  animation-duration: 5s;
+}
+@keyframes animación1{
+  0%{
+    
+    filter: blur(0px);
+  }
+  10%{
+    filter: blur(50px);
+    left: 67%;
+  }
+  20%{
+   
+    left: 70%;
+  }
+  50%{
+    
+    filter: blur(30px);
+    left: 70%;
+    overflow: hidden;
+  }
+  60%{
+    filter: blur(20px);
+    left: 0%;
+  }
+  70%{
+    filter: blur(20px);
+    left: 20%;
+  }
+  80%{
+    filter: blur(20px);
+    left: 35%;
+  }
+  100%{
+    filter: blur(0px);
+  }
+}
+@keyframes entrada_botones{
+  0%{
+    visibility: hidden;
+  }
+  10%{
+    visibility: hidden;
+  }
+  30%{
+    visibility: hidden;
+  }
+  50%{
+    visibility: hidden;
+  }
+  80%{
+    visibility: hidden;
+  }
+  100%{
+    transition: all 1 ease;
+    visibility:visible;
+  }
+}
+@keyframes animación_de_hover_botones {
+  0%{
+    background-color: rgb(255, 145, 0) ;
+  }
+  10%{
+    background-color: rgb(0, 204, 255);
+    border-radius: 40%;
+  }
+  30%{
+    transition: all 2s ease;
+    background-color: rgb(255, 0, 0);
+    border-radius: 30%;
+  }
+  60%{
+    transition: all 2s ease;
+    background-color: rgb(255, 251, 0);
+    border-radius: 20%;
+  }
+  80%{
+    transition: all 2s ease;
+    background-color: salmon;
+    rotate:30%;
+  }
+  100%{
+    background-color: rgb(255, 145, 0);
+  }
 }
