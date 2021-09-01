@@ -30,10 +30,9 @@ function resolucion() {
 function españollatino(){
 var titulo = document.getElementById("titulo").innerHTML="Proyectos"
 var tituloh1 = document.getElementById("tituloh1").innerHTML="PROYECTOS ITMACLIF"
-var infonum = document.getElementById("info-num").innerHTML="Numero por colocar"
 var textocontacto = document.getElementById("contacto").innerHTML ="Datos de contacto"
 descripción_de_videos = descripción_de_videos2;
-document.getElementById("leviamont-parrafo1").innerHTML=(descripción_de_videos[numero_arrays]);
+var parra = document.getElementById("leviamont-parrafo1").innerHTML=(descripción_de_videos[numero_arrays]);
 speechSynthesis.speak(new SpeechSynthesisUtterance("Modo Español Latino"));
 }
 function ingles(){
@@ -46,7 +45,7 @@ function ingles(){
   speechSynthesis.speak(new SpeechSynthesisUtterance("American English mode"));
   }
 
-function idioma(){
+function idiomas(){
   if (leg == 'es') {
     españollatino();
     document.getElementById("leviamont-parrafo1").innerHTML=("Bienvenido da click en el botón continuar");
@@ -107,4 +106,5 @@ function avanzar2(){
       
     
   //  }
+  
   
