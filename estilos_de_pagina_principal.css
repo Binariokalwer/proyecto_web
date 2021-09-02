@@ -459,7 +459,7 @@ background-color:unset;
   }
   .video1{
     top: 35%;
-    left: 20%;
+    left: 10%;
     height: 30%;
     width: 150%;
   }
@@ -592,7 +592,7 @@ background-color:unset;
     left: 5%;
   }
 }
-@media only screen and (max-height:361px) and (min-height:300px) and (min-width:600px) {
+@media only screen and (max-height:362px) and (min-height:360px) and (min-width:640px) {
   .texto-encima{
     font-size: 150%;
   }
@@ -625,7 +625,7 @@ background-color:unset;
     height: 100%;
   }
 }
-@media only screen and (max-width:1030px) and (min-width:1020px) {
+@media only screen and (max-width:1800px) and (min-width:1020px) and (min-height:1020px) {
   #total-video1{
     width: 50%;
     height: 50%;
@@ -655,6 +655,9 @@ background-color:unset;
     left: 1%;
     font-size: 800%;
     width: fit-content;
+  }
+  .video1-introdución{
+    font-size: 250%;
   }
 }
 /* .retroceder{
