@@ -59,9 +59,9 @@ function idiomas(){
   }
   //area de videos e información//
 const videos = ["","https://www.dropbox.com/s/31ybw541kvocd0e/Ceukos%202021.mp4?raw=1","https://www.youtube.com/embed/6xu_MrSxZaY","https://www.dropbox.com/s/xbo4lav0ocsw0xs/Leviamont3.mp4?raw=1"];
-var descripción_de_videos = ["","Proyecto Ordenadores Cuánticos ¿qué son? ¿para que sirven? ¿son el futuro de la tecnología?","Proyecto para mejorar el sistema de transporte de materiales pesados mediante levitación electromagnética","hola"];
-var descripción_de_videos2 = ["","Proyecto Ordenadores Cuánticos ¿qué son? ¿para que sirven? ¿son el futuro de la tecnología?","Proyecto para mejorar el sistema de transporte de materiales pesados mediante levitación electromagnética","hola"];
-const descripción_de_videosen = ["","Quantum Computers Project What are they? What are they for? Are they the future of technology?","Project to improve the transport system for heavy materials by electromagnetic levitation","hola"];
+var descripción_de_videos = ["","Proyecto Ordenadores Cuánticos ¿qué son? ¿para que sirven? ¿son el futuro de la tecnología?","Proyecto para mejorar el sistema de transporte de materiales pesados mediante levitación electromagnética","Leviamont2"];
+var descripción_de_videos2 = ["","Proyecto Ordenadores Cuánticos ¿qué son? ¿para que sirven? ¿son el futuro de la tecnología?","Proyecto para mejorar el sistema de transporte de materiales pesados mediante levitación electromagnética","Leviamont2"];
+const descripción_de_videosen = ["","Quantum Computers Project What are they? What are they for? Are they the future of technology?","Project to improve the transport system for heavy materials by electromagnetic levitation","Leviamont2"];
 //fin de area de videos e información//
 ///----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------///
 var contenedor_de_video = document.getElementById("total-video1");
