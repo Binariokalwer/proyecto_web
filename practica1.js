@@ -93,6 +93,9 @@ function avanzar2(){
     imageHeight: 200,
     imageAlt: 'Custom image',
   })
+  function hablaer(){
+    speechSynthesis.speak(new SpeechSynthesisUtterance("welcome, starting systems"));
+  }
   // function retroceder2(){
   //   if (numero_arrays > 1){
   //     alert(numero_arrays);
