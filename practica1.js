@@ -94,7 +94,7 @@ function avanzar2(){
     imageAlt: 'Custom image',
   })
   function hablaer(){
-    speechSynthesis.speak(new SpeechSynthesisUtterance("welcome, starting systems"));
+    speechSynthesis.speak(new SpeechSynthesisUtterance("project two options one world please click start 3d model, created by Daniel Isai Mas Cach and Daniel Aldayr Suastes Pech"));
   }
   // function retroceder2(){
   //   if (numero_arrays > 1){
