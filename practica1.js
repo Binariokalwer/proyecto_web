@@ -85,6 +85,14 @@ function avanzar2(){
       document.getElementById("leviamont-parrafo1").innerHTML=(descripción_de_videos[numero_arrays]);
    }
   }
+  Swal.fire({
+    title: 'Welcome Professor María Dolores Ramírez Dzib this is our project.',
+    text: 'click ok to continue',
+    imageUrl: 'https://lh3.googleusercontent.com/a-/AOh14GgXfpliOwbziyOdux3voA2W5V7yJzLx7cSZlwmkxw=s75-c',
+    imageWidth: 200,
+    imageHeight: 200,
+    imageAlt: 'Custom image',
+  })
   // function retroceder2(){
   //   if (numero_arrays > 1){
   //     alert(numero_arrays);
